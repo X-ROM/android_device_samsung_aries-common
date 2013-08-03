@@ -163,10 +163,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
        ro.vold.switchablepair=/mnt/emmc,/mnt/sdcard \
        ro.bq.gpu_to_cpu_unsupported=1 \
 
-# GPU producer to CPU consumer not supported
-PRODUCT_PROPERTY_OVERRIDES += \
-       ro.bq.gpu_to_cpu_unsupported=1
-
 # SGX540 is slower with the scissor optimization enabled
 PRODUCT_PROPERTY_OVERRIDES += \
        ro.hwui.disable_scissor_opt=true
