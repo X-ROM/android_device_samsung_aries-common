@@ -45,6 +45,9 @@ TARGET_KERNEL_SOURCE := kernel/samsung/aries
 # Releasetools
 TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/aries-common
 
+# Low Mem Dalvik
+TARGET_ARCH_LOWMEM := true
+
 # Camera
 USE_CAMERA_STUB := false
 ifeq ($(USE_CAMERA_STUB),false)
